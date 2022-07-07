@@ -3,7 +3,7 @@ from time import strftime
 
 
 def light_theme():
-    frame = tk.Frame(root, bg="white")
+    frame = tk.Frame(root, bg="blue")
     frame.place(relx=0.1, rely=0.1, relwidth=0.8, relheight=0.8)
     lbl_1 = tk.Label(frame, font=('calibri', 40, 'bold'),
                      background='White', foreground='black')
